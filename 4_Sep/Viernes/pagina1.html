@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pagina1</title>
+</head>
+<body>
+<form id="form1" name="form1" method="post" action="formulario.php">
+  <p>Nombre:
+    <label for="textfield"></label>
+    <input type="text" name="nombre" id="textfield" />
+  </p>
+  <p>
+    <label for="textfield2"></label>
+    Correo:
+    <input type="text" name="correo" id="textfield2" />
+  </p>
+  <p>
+    <label for="textfield3"></label>
+    Direccion:
+    <input type="text" name="direccion" id="textfield3" />
+  </p>
+  <p>
+    <label for="textfield4"></label>
+    Codigo Postal:
+    <input type="text" name="cp" id="textfield4" />
+  </p>
+  <p>
+  <!--Radio nombres iguales  y valores diferentes-->
+    <input type="radio" name="radio2" id="radio" value="Si" />
+    <label for="radio"></label>
+  Si</p>
+  <p>
+    <input type="radio" name="radio2" id="radio2" value="No" />
+    <label for="radio2"></label>
+  No</p>
+   <!--Select debe de tener los valores diferentes y el nombre debe de ser el que se pondra para validarlo-->
+      <label for="select"></label>
+      <select name="cosas" id="select">
+        <option value"1">Avion </option>
+        <option value "2">Barco </option>
+        <option value "3">Tren </option>
+        <option value"4">Auto</option>
+        
+      </select>
+
+
+      <input type="checkbox" name="tablet" id="checkbox" />
+    
+      Tablet
+      <label for="checkbox"></label>
+    
+      <input type="checkbox" name="celular" id="checkbox2" />
+    Celular</p>
+    <p>
+  <label for="checkbox2"></label>
+      <input type="checkbox" name="laptop" id="checkbox3" />
+      Laptop    </p>
+    <p>
+      <label for="checkbox3"></label>
+      <input type="checkbox" name="mp3" id="checkbox4" />
+    MP3</p>
+    <p>
+      <input type="submit" name="enviar" id="button" value="Enviar" />
+  <label for="checkbox4"></label>
+    </p>
+</form>
+
+
+
+
+
+
+</body>
+</html>

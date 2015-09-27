@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="valida.php">
+  <p>Nombre:
+    <label for="textfield"></label>
+    <input type="text" name="nombre" id="textfield" />
+  </p>
+  <p>
+    <label for="textfield2"></label>
+    Correo:
+    <input type="text" name="correo" id="textfield2" />
+  </p>
+  <p>
+    <label for="textfield3"></label>
+    Dirección:
+    <input type="text" name="direccion" id="textfield3" />
+  </p>
+  <p>
+    <label for="textfield4"></label>
+    Código Postal:
+    <input type="text" name="cp" id="textfield4" />
+  </p>
+  <p>
+  <!--El radio debe de tenr el nombre igual y en el value darle los valores que se desean mostrar-->
+    <input type="radio" name="radio2" id="radio" value="Si" />
+    <label for="radio"></label>
+  Si</p>
+  <p>
+    <input type="radio" name="radio2" id="radio2" value="No" />
+    <label for="radio2"></label>
+  No</p>
+    <p>
+      <label for="select"></label>
+      <select name="cosas" id="select">
+        <option value"1">Avion </option>
+        <option value "2">Barco </option>
+        <option value "3">Tren </option>
+        <option value"4">Auto</option>
+        
+      </select></p>
+    <p>
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      Muñeca
+      <label for="checkbox"></label>
+    </p>
+    <p>
+      <input type="checkbox" name="checkbox2" id="checkbox2" />
+    Celular</p>
+    <p>
+  <label for="checkbox2"></label>
+      <input type="checkbox" name="checkbox3" id="checkbox3" />
+      Laptop    </p>
+    <p>
+      <label for="checkbox3"></label>
+      <input type="checkbox" name="checkbox4" id="checkbox4" />
+    MP3</p>
+    <p>
+      <input type="submit" name="enviar" id="button" value="Enviar" />
+  <label for="checkbox4"></label>
+    </p>
+</form>
+</body>
+</html>
